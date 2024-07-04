@@ -19,7 +19,7 @@ import java.lang.annotation.Target;
 public @interface LongValueMustBe {
     long mustBe() default 0L;
 
-    String message() default "{com.andrascsanyi.encyclopediagalactica.common.validation.LongValueMustBe}";
+    String message() default "{com.andrascsanyi.beanvalidationextensions.LongValueMustBe}";
 
     Class<?>[] groups() default {};
 
