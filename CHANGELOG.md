@@ -1,3 +1,11 @@
+## [0.2.11](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.10...0.2.11) (2024-07-05)
+
+
+### Bug Fixes
+
+* **dependency upgrades:** bump org.junit.platform:junit-platform-suite ([91e88a2](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/91e88a2f3595985cf2e5a8a1eaf1853f33fcccdc))
+* **dependency upgrades:** bump org.junit.platform:junit-platform-suite from 1.10.2 to 1.10.3 ([#22](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/22)) ([943a26c](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/943a26c1efa3a8f1a8054d1d1a93b25146ff373c))
+
 ## [0.2.10](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.9...0.2.10) (2024-07-05)
 
 
