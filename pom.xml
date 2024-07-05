@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.andrascsanyi</groupId>
     <artifactId>bean-validation-extensions</artifactId>
-    <version>0.2.9</version>
+    <version>0.2.10</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>
         Additional validation annotations for Hibernate Bean Validations
