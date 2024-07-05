@@ -80,12 +80,12 @@ public class TrimmedNotBlankTests extends BeanValidationExtensionsApplicationTes
 
     @Test
     public void testCustomErrorMessage() {
-        DefaultErrorMessageEntity input = DefaultErrorMessageEntity.builder().id("").build();
-        Set<ConstraintViolation<DefaultErrorMessageEntity>> result = validator.validate(input);
+        CustomErrorMessageEntity input = CustomErrorMessageEntity.builder().id("").build();
+        Set<ConstraintViolation<CustomErrorMessageEntity>> result = validator.validate(input);
         assertThat(result.size()).isEqualTo(1);
 
         String message = result.stream().findFirst().get().getMessage();
-        String expected = String.format("{%s}", TrimmedNotBlank.class.getName());
+        String expected = "Custom Error Message";
 
         assertThat(message)
             .withFailMessage(String.format("result: %s; \nexpected: %s", message, expected))

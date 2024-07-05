@@ -1,6 +1,6 @@
-package com.andrascsanyi.beanvalidationextensions.trimmednotblank;
+package com.andrascsanyi.beanvalidationextensions.trimmednotempty;
 
-import com.andrascsanyi.beanvalidationextensions.TrimmedNotBlank;
+import com.andrascsanyi.beanvalidationextensions.TrimmedNotEmpty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -14,7 +14,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class CustomErrorMessageEntity {
 
-    @TrimmedNotBlank(
+    @TrimmedNotEmpty(
         message = "Custom Error Message"
     )
     private String id;
