@@ -1,3 +1,11 @@
+## [0.2.10](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.9...0.2.10) (2024-07-05)
+
+
+### Bug Fixes
+
+* **dependency upgrades:** bump org.projectlombok:lombok ([31203cc](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/31203ccaec1ea776538b536243d1191375ab7c73))
+* **dependency upgrades:** bump org.projectlombok:lombok from 1.18.32 to 1.18.34 ([#23](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/23)) ([f4f7c67](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/f4f7c67b3a6aeb72b2291c2e6e7d693f015494b8))
+
 ## [0.2.9](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.8...0.2.9) (2024-07-01)
 
 
