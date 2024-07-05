@@ -1,6 +1,7 @@
 package com.andrascsanyi.beanvalidationextensions;
 
 import jakarta.validation.Constraint;
+import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Payload;
 
 import java.lang.annotation.Documented;
@@ -18,12 +19,25 @@ import java.lang.annotation.Target;
 @Constraint(validatedBy = LongValueMustBeGreaterOrEqualToValidator.class)
 @Documented
 public @interface LongValueMustBeGreaterOrEqualTo {
+
+    /**
+     * The value which to the provided input must he greater or equal to.
+     */
     long mustBeGreaterOrEqualTo() default Long.MIN_VALUE;
 
-    String message() default "{com.andrascsanyi.encyclopediagalactica.common.validation.LongValueMustBeGreaterOrEqualT}";
+    /**
+     * The error message will be shown in the {@link ConstraintViolation}.
+     */
+    String message() default "{com.andrascsanyi.beanvalidationextensions.LongValueMustBeGreaterOrEqualTo}";
 
+    /**
+     * In which group the constraint check will be executed.
+     */
     Class<?>[] groups() default {};
 
+    /**
+     * The payload.
+     */
     Class<? extends Payload>[] payload() default {};
 
 }

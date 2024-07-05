@@ -1,6 +1,7 @@
 package com.andrascsanyi.beanvalidationextensions;
 
 import jakarta.validation.Constraint;
+import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Payload;
 
 import java.lang.annotation.Documented;
@@ -20,9 +21,18 @@ import java.lang.annotation.Target;
 @Documented
 public @interface TrimmedNotBlank {
 
-    String message() default "{com.andrascsanyi.encyclopediagalactica.common.validation.TrimmedNotBlank}";
+    /**
+     * The error message which will be added to the {@link ConstraintViolation} when the constraint is violated.
+     */
+    String message() default "{com.andrascsanyi.beanvalidationextensions.TrimmedNotBlank}";
 
+    /**
+     * List of groups when the constraint need to be checked.
+     */
     Class<?>[] groups() default {};
 
+    /**
+     * The payload.
+     */
     Class<? extends Payload>[] payload() default {};
 }
