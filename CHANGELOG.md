@@ -1,3 +1,11 @@
+## [0.2.12](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.11...0.2.12) (2024-07-05)
+
+
+### Bug Fixes
+
+* **dependency upgrades:** bump org.junit.jupiter:junit-jupiter ([8c2efab](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/8c2efab255361e3bc57cb91cc80b69457c74f621))
+* **dependency upgrades:** bump org.junit.jupiter:junit-jupiter from 5.10.2 to 5.10.3 ([#21](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/21)) ([317033b](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/317033b8723ae81cf798ac7487c9555cb4da631f))
+
 ## [0.2.11](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.10...0.2.11) (2024-07-05)
 
 
