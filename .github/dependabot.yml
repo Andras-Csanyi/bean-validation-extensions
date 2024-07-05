@@ -8,3 +8,7 @@ updates:
       - "Andras-Csanyi"
     commit-message:
       prefix: "fix(dependency upgrades)"
+    groups:
+      library-upgrades:
+        patterns:
+          - "*"
