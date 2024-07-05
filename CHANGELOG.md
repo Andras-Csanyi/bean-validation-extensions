@@ -1,3 +1,10 @@
+## [0.2.13](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.12...0.2.13) (2024-07-05)
+
+
+### Bug Fixes
+
+* validator error message fixes ([#25](https://github.com/Andras-Csanyi/bean-validation-extensions/issues/25)) ([faf1162](https://github.com/Andras-Csanyi/bean-validation-extensions/commit/faf1162b938d57a967aa101be1d56dbc7e754cb4))
+
 ## [0.2.12](https://github.com/Andras-Csanyi/bean-validation-extensions/compare/0.2.11...0.2.12) (2024-07-05)
 
 
