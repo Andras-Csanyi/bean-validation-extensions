@@ -31,17 +31,17 @@
     <properties>
         <java.version>17</java.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
-        <slf4j-api.version>2.0.13</slf4j-api.version>
+        <slf4j-api.version>2.0.15</slf4j-api.version>
         <expressly.version>5.0.0</expressly.version>
         <!--Testing-->
-        <assertj-core.version>3.26.0</assertj-core.version>
+        <assertj-core.version>3.26.3</assertj-core.version>
         <junit-jupiter.version>5.10.3</junit-jupiter.version>
         <junit-platform-suite.version>1.10.3</junit-platform-suite.version>
         <lombok.version>1.18.34</lombok.version>
         <!--plugins-->
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
         <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.7.0</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.8.0</maven-javadoc-plugin.version>
         <maven-gpg-plugin.version>3.2.4</maven-gpg-plugin.version>
         <central-publishing-maven-plugin.version>0.5.0</central-publishing-maven-plugin.version>
     </properties>
